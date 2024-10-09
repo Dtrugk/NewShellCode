@@ -1,0 +1,632 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'hProcess'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                },
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 44
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 84,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 86,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 89,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 93,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 95,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 98,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 34
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 72
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 116,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 43
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 48
+                          }
+                        },
+                        "message": {
+                          "text": "'hProcess' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 100
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 43
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 72
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "'hProcess' is an In/Out argument to 'VirtualAllocEx' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\um\\memoryapi.h:112)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 58
+                          }
+                        },
+                        "message": {
+                          "text": "'hProcess' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/Malware Dev/ShellCode/Source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "30c7ccc892571500a7278a81123524048ea3ec33c9b000c1c8181a700a0e3e73"
+          }
+        }
+      ]
+    }
+  ]
+}

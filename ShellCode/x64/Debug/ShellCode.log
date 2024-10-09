@@ -1,0 +1,5 @@
+﻿  Source.cpp
+E:\Study\Malware Dev\ShellCode\Source.cpp(248,44): warning C4101: 'dwPID': unreferenced local variable
+  ShellCode.vcxproj -> E:\Study\Malware Dev\ShellCode\x64\Debug\ShellCode.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
